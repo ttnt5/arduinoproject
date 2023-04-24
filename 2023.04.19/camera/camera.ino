@@ -23,6 +23,7 @@
 //#define CAMERA_MODEL_M5STACK_UNITCAM // No PSRAM
 #define CAMERA_MODEL_AI_THINKER // Has PSRAM
 //#define CAMERA_MODEL_TTGO_T_JOURNAL // No PSRAM
+//#define CAMERA_MODEL_XIAO_ESP32S3 // Has PSRAM
 // ** Espressif Internal Boards **
 //#define CAMERA_MODEL_ESP32_CAM_BOARD
 //#define CAMERA_MODEL_ESP32S2_CAM_BOARD
@@ -34,7 +35,7 @@
 // Enter your WiFi credentials
 // ===========================
 const char* ssid = "wifi아이디";
-const char* password = "wifi비번";
+const char* password = "wifi비밀번호";
 
 void startCameraServer();
 void setupLedFlash(int pin);
