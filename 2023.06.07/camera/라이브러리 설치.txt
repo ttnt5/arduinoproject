@@ -1,0 +1,2 @@
+https://github.com/espressif/arduino-esp32/releases/download/2.0.8/package_esp32_index.json
+최신버전 모듈
